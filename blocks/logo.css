@@ -1,6 +1,15 @@
 .logo {
+  display: flex;
+  flex-direction: column;
 }
 .logo__image {
+  margin: 34px auto 0;
+  width: 32px;
+  height: 32px;
 }
 .logo__name-gallery {
+  width: 254.84px;
+  height: 14.94px;
+  padding-top: 22px;
+  margin: auto;
 }
