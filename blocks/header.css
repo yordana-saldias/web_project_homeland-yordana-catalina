@@ -1,4 +1,7 @@
 .header {
+  max-width: 984px;
+  width: 100%;
+  margin: auto;
 }
 .header__logo {
 }
@@ -18,7 +21,6 @@
   max-width: 720px;
   max-height: 72px;
   padding-top: 32px;
-  font-family: "inter regular 400", Arial, sans-serif;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -30,7 +32,7 @@
   max-height: 615px;
   padding-top: 64px;
   display: block;
-  margin: auto;
 }
 .header__into {
+  width: 60%;
 }
