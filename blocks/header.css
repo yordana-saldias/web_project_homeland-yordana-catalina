@@ -4,11 +4,33 @@
 }
 .header__holder {
 }
-.header__image {
-}
 .header__title {
+  max-width: 720px;
+  max-height: 200px;
+  font-family: "inter black 900", Arial, sans-serif;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  padding-top: 91px;
+  margin: auto;
 }
 .header__subtitle {
+  max-width: 720px;
+  max-height: 72px;
+  padding-top: 32px;
+  font-family: "inter regular 400", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: auto;
+}
+.header__image {
+  width: 100%;
+  max-width: 984px;
+  max-height: 615px;
+  padding-top: 64px;
+  display: block;
+  margin: auto;
 }
 .header__into {
 }
