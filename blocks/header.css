@@ -36,3 +36,9 @@
 .header__into {
   width: 60%;
 }
+@media screen and (max-width: 768px) {
+  header__title {
+    font-size: 75px;
+    line-height: 79px;
+  }
+}
