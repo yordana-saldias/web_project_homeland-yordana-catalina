@@ -9,7 +9,6 @@
 }
 .header__title {
   max-width: 720px;
-  max-height: 200px;
   font-family: "inter black 900", Arial, sans-serif;
   font-size: 96px;
   line-height: 100px;
@@ -19,7 +18,6 @@
 }
 .header__subtitle {
   max-width: 720px;
-  max-height: 72px;
   padding-top: 32px;
   font-size: 30px;
   line-height: 36px;
@@ -36,9 +34,22 @@
 .header__into {
   width: 60%;
 }
-@media screen and (max-width: 768px) {
-  header__title {
+@media screen and (min-width: 585px) and (max-width: 1024px) {
+  .header__title {
     font-size: 75px;
     line-height: 79px;
+    max-width: 530px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 584px) {
+  .header__title {
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 228px;
+  }
+  .header__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 288px;
   }
 }

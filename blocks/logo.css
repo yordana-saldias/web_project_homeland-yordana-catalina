@@ -8,8 +8,18 @@
   height: 32px;
 }
 .logo__name-gallery {
-  width: 254.84px;
+  width: 255px;
   height: 91px;
   padding-top: 22px;
   margin: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 584px) {
+  .logo__image {
+    width: 23px;
+    height: 23px;
+  }
+  .logo__name-gallery {
+    width: 187px;
+    height: 11px;
+  }
 }
