@@ -3,10 +3,6 @@
   width: 100%;
   margin: auto;
 }
-.header__logo {
-}
-.header__holder {
-}
 .header__title {
   max-width: 720px;
   font-family: "inter black 900", Arial, sans-serif;
@@ -30,9 +26,6 @@
   max-height: 615px;
   padding-top: 64px;
   display: block;
-}
-.header__into {
-  width: 60%;
 }
 @media screen and (min-width: 585px) and (max-width: 1024px) {
   .header__title {
