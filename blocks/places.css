@@ -4,7 +4,7 @@
   max-width: 987px;
   margin: auto;
 }
-.places_content {
+.places__content {
   width: 100%;
   margin-top: 80px;
   column-gap: 40px;
@@ -16,25 +16,25 @@
     "image paragraph"
     "button paragraph";
 }
-.places_title {
+.places__title {
   font-family: "inter black 900", Arial, sans-serif;
   font-size: 72px;
   line-height: 76px;
   max-width: 460px;
   grid-area: title;
 }
-.places_image {
+.places__image {
   max-width: 460px;
   height: 460px;
   object-fit: cover;
   box-shadow: 10px 10px 25px #00000080;
   grid-area: image;
 }
-.places_image:hover {
+.places__image:hover {
   background-color: #000;
   opacity: 0.5;
 }
-.places_button {
+.places__button {
   max-width: 289px;
   max-height: 48px;
 
@@ -44,7 +44,7 @@
   margin-top: 40px;
   grid-area: button;
 }
-.places_text-button {
+.places__text-button {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
@@ -52,46 +52,46 @@
   color: #fff;
   margin: 15px;
 }
-.places_button:hover {
+.places__button:hover {
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
-.places_website {
+.places__website {
   grid-area: website;
   margin-bottom: 40px;
 }
-.places_url {
+.places__url {
   font-size: 12px;
   color: #aaaaaa;
   line-height: 14.52px;
 }
-.places_artist {
+.places__artist {
   margin: 0;
 }
-.places_paragraph {
+.places__paragraph {
   grid-area: paragraph;
   height: 100%;
 }
 
-.places_review {
+.places__review {
   max-width: 484px;
 }
 @media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
   }
-  .places_content {
+  .places__content {
     grid-template-rows: auto auto 340px auto;
   }
-  .places_title {
+  .places__title {
     max-width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
-  .places_image {
+  .places__image {
     max-width: 340px;
     height: 340px;
   }
-  .places_paragraph {
+  .places__paragraph {
     font-size: 16px;
     line-height: 26.8px;
   }
@@ -100,7 +100,7 @@
   .places {
     max-width: 320px;
   }
-  .places_content {
+  .places__content {
     grid-template-areas:
       "title"
       "website"
@@ -108,25 +108,25 @@
       "paragraph"
       "button";
   }
-  .places_title {
+  .places__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     margin-left: 16px;
   }
-  .places_website {
+  .places__website {
     max-width: 288px;
     margin-left: 16px;
   }
-  .places_image {
+  .places__image {
     max-width: 320px;
     height: 320px;
   }
-  .places_paragraph {
+  .places__paragraph {
     max-width: 288px;
     margin-left: 16px;
   }
-  .places_button {
+  .places__button {
     width: 288px;
     height: 48px;
     margin: auto;

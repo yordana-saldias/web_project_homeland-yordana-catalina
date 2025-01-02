@@ -8,7 +8,7 @@
   padding-top: 80px;
 }
 
-.miniatures-grid_images {
+.miniatures-grid__images {
   max-width: 284px;
   max-height: 213px;
   width: 100%;
@@ -21,7 +21,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
-  .miniatures-grid_images {
+  .miniatures-grid__images {
     max-width: 352px;
     max-height: 264px;
   }
@@ -32,7 +32,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
-  .miniatures-grid_images {
+  .miniatures-grid__images {
     max-width: 288px;
     max-height: 216px;
   }
