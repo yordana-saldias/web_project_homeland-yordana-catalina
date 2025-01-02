@@ -14,3 +14,26 @@
   width: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .miniatures-grid {
+    max-width: 720px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .miniatures-grid_images {
+    max-width: 352px;
+    max-height: 264px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .miniatures-grid {
+    max-width: 288px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .miniatures-grid_images {
+    max-width: 288px;
+    max-height: 216px;
+  }
+}

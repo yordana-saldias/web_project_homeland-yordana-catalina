@@ -9,8 +9,7 @@
   margin-top: 80px;
   column-gap: 40px;
   display: grid;
-  grid-template-rows: auto auto 1fr;
-  grid-template-columns: 460px 1fr;
+  grid-template-rows: auto auto 460px auto;
   grid-template-areas:
     "title ."
     "title website"
@@ -73,4 +72,62 @@
 
 .places_review {
   max-width: 484px;
+}
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+  }
+  .places_content {
+    grid-template-rows: auto auto 340px auto;
+  }
+  .places_title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .places_image {
+    max-width: 340px;
+    height: 340px;
+  }
+  .places_paragraph {
+    font-size: 16px;
+    line-height: 26.8px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+  }
+  .places_content {
+    grid-template-rows: repeat(1fr);
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "paragraph"
+      "link";
+  }
+  .places_title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 16px;
+  }
+  .places_website {
+    max-width: 288;
+    margin-left: 16px;
+  }
+  .places_image {
+    max-width: 320px;
+    height: 320px;
+  }
+  .places_paragraph {
+    max-width: 288px;
+    margin-left: 16px;
+  }
+  .places_link {
+    width: 288px;
+    height: 48px;
+    margin: auto;
+  }
 }
